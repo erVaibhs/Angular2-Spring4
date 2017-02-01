@@ -1,0 +1,21 @@
+<!--<ngb-carousel>
+  <template ngbSlide *ngFor="let video of video" >
+    
+    <img src={{video.image.url}} (click)="clicked(video,event)" >
+   
+    
+  </template>
+  
+</ngb-carousel>
+-->
+<div style="height: 274px;overflow-y: scroll">
+<div *ngFor="let video of video" style="float: left; border: 1px; border-color: cornflowerblue; margin-right: 4px">
+
+  
+    <img src={{video.image.url}} (click)="clicked(video,event)" >
+  
+
+</div>
+</div>
+
+ 
